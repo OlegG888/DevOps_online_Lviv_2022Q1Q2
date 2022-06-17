@@ -1,6 +1,6 @@
 # Task 8 Python Intro.
 
-1. Write easy program, which 
+1. Write a simple program that will display the current date and time. 
 2. Write python program, which will accept comma-separated numbers, and then it
       should write tuple and list of them:
       Enter numbers: 1, 2, 7, 43, 9
