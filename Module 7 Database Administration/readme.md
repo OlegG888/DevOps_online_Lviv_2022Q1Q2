@@ -7,13 +7,11 @@
 5. Fill in tables.
 <br/>
 <br/>
-![Завдання з 1 - 5](1-5.jpg)
-   <br/><br/>
+![Завдання з 1 - 5](1-5.jpg)<br/><br/>
 6. Construct and execute SELECT operator with WHERE, GROUP BY and ORDER BY.
    <br/>
    <br/>
-![Завдання 6](6.jpg)<br/>
-   <br/>
+![Завдання 6](6.jpg)<br/><br/>
 7. Execute other different SQL queries DDL, DML, DCL.<br/><br/>DDL – Data Definition Language
 Data Definition Language (DDL) – це група операторів визначення даних.
 Інакше кажучи, з допомогою операторів, які входять до цієї групи, ми визначаємо
