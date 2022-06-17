@@ -32,7 +32,7 @@ nums = re.findall(r'\d+', s)
 print("List: ", nums)
 print("Tuple: ", tuple(nums))
 ```
-[more...](https://github.com/OlegG888/DevOps_online_Lviv_2022Q1Q2/tree/main/Module%208%20Python%20intro/Task8.1-2)
+[more...](https://github.com/OlegG888/DevOps_online_Lviv_2022Q1Q2/tree/main/Module%208%20Python%20intro/Task8.1-2) <br/><br/>
 3. Write python program, which will ask file name. File should be read, and only even
    lines should be shown.<br/><br/>
 ```python
@@ -51,7 +51,7 @@ for num, line in enumerate (myfile, 1):
 
 myfile.close()
 ```
-[more...](https://github.com/OlegG888/DevOps_online_Lviv_2022Q1Q2/tree/main/Module%208%20Python%20intro/Task8.3)
+[more...](https://github.com/OlegG888/DevOps_online_Lviv_2022Q1Q2/tree/main/Module%208%20Python%20intro/Task8.3) <br/><br/>
 4. Write python program, which should read html document, parse it, and show it’s
    title.<br/><br/>
 ```python
@@ -81,7 +81,7 @@ while True:
                 print("Title: " + str)
                 sys.exit()
 ```
-[more...](https://github.com/OlegG888/DevOps_online_Lviv_2022Q1Q2/tree/main/Module%208%20Python%20intro/Task8.4)
+[more...](https://github.com/OlegG888/DevOps_online_Lviv_2022Q1Q2/tree/main/Module%208%20Python%20intro/Task8.4) <br/><br/>
 5. Write python program, which will parse user’s text, and replace some emotions with
    emoji’s (Look: pip install emoji).<br/><br/>
 ```python
@@ -112,7 +112,7 @@ for n, i in enumerate(lst, 0):
 print(*lst_mask)
 sys.exit()
 ```
-[more...](https://github.com/OlegG888/DevOps_online_Lviv_2022Q1Q2/tree/main/Module%208%20Python%20intro/Task8.5)
+[more...](https://github.com/OlegG888/DevOps_online_Lviv_2022Q1Q2/tree/main/Module%208%20Python%20intro/Task8.5) <br/><br/>
 6. Write program, that will show basic PC information (OS, RAM amount, HDD’s, and
    etc.).<br/><br/>
 ```python
@@ -128,4 +128,4 @@ print("Operating system: ", platform.system())
 print('RAM memory MB:', psutil.virtual_memory()[0]*0.000001)
 print("Total: %d GiB" % (total // (2**30)))
 ```
-[more...](https://github.com/OlegG888/DevOps_online_Lviv_2022Q1Q2/tree/main/Module%208%20Python%20intro/Task8.6)
+[more...](https://github.com/OlegG888/DevOps_online_Lviv_2022Q1Q2/tree/main/Module%208%20Python%20intro/Task8.6) <br/><br/>
