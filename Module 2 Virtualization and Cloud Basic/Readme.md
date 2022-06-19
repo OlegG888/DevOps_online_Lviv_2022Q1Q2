@@ -55,7 +55,7 @@
 tree of snapshots [1, ch.1.11].<br/>
    1.9 Export VM1. Save the *.ova file to disk. Import VM from *.ova file [1, ch.1.15]. <br/>
 
- ![Завдання 1.9](Snapshots Imp-Exp1.8-1.9.png) <br/><br/>
+ ![Завдання 1.9](SnapshotsExp1.8-1.9.png) <br/><br/>
 
 2. Configuration of virtual machines<br/>
    2.1 Explore VM configuration options (general settings, system settings, display,
@@ -73,7 +73,7 @@ tree of snapshots [1, ch.1.11].<br/>
 ```text
 Результати моїх тестів повністю збігаються з таблицею нижче:
 ```
-  ![Завдання 2.4](2.4 TablePosibleconnections.png) <br/><br/>
+  ![Завдання 2.4](2.4TablePosibleconnections.png) <br/><br/>
 
 3. Work with CLI through VBoxManage. <br/>
    3.1 Run the cmd.exe command line. <br/>
