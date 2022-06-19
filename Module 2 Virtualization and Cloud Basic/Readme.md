@@ -73,7 +73,7 @@ tree of snapshots [1, ch.1.11].<br/>
 Результати моїх тестів повністю збігаються з таблицею нижче:
 ```
 
- ![Завдання 2.4](2.4 TablePosibleconnections.png) <br/><br/>
+  ![Завдання 2.4](2.4 TablePosibleconnections.png) <br/><br/>
 
 3. Work with CLI through VBoxManage.
    3.1 Run the cmd.exe command line.
