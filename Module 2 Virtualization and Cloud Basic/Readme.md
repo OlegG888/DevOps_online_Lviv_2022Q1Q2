@@ -54,6 +54,7 @@
    1.8 For VM1, changing its state, take several different snapshots, forming a branched
 tree of snapshots [1, ch.1.11].<br/>
    1.9 Export VM1. Save the *.ova file to disk. Import VM from *.ova file [1, ch.1.15]. <br/>
+
  ![Завдання 1.9](Snapshots Imp-Exp1.8-1.9.png) <br/><br/>
 
 2. Configuration of virtual machines<br/>
