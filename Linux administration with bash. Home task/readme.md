@@ -1,6 +1,6 @@
 # Task 6 Linux administration with bash.
 
-###A. Create a script that uses the following keys:
+### A. Create a script that uses the following keys:
 1. When starting without parameters, it will display a list of possible keys and their description.
 2. The --all key displays the IP addresses and symbolic names of all hosts in the current subnet
 3. The --target key displays a list of open system TCP ports.
@@ -26,7 +26,7 @@ fi
 
 ```
 <br/><br/>
-###B. Using Apache log example create a script to answer the following questions:
+### B. Using Apache log example create a script to answer the following questions:
 1. From which ip were the most requests?<br/>
 ```bash
 cat ~/Desktop/Scripts/apache_logs.txt | awk '{print "requests from: " $1}' | sort | uniq -c | sort -nr | sed -n '1p' 
@@ -54,7 +54,7 @@ cat ~/Desktop/Scripts/apache_logs.txt | sed /bot/p | awk '{$2=""}1' | awk '{$3="
 ```
 <br/><br/>
 
-###C. Create a data backup script that takes the following data as parameters:
+### C. Create a data backup script that takes the following data as parameters:
 1. Path to the syncing directory.
 2. The path to the directory where the copies of the files will be stored.
    In case of adding new or deleting old files, the script must add a corresponding entry to the log file
