@@ -1,4 +1,4 @@
-# Task 6 Linux administration with bash.
+# Task 6 Linux administration with bash.<br/>
 
 ###A. Create a script that uses the following keys:
 1. When starting without parameters, it will display a list of possible keys and their description.
@@ -25,7 +25,7 @@ else echo "1. The --all key displays the ip addresses and symbolic names of all 
 fi
 
 ```
-<br/><br/>
+
 ###B. Using Apache log example create a script to answer the following questions:
 1. From which ip were the most requests?<br/>
 ```bash
@@ -52,8 +52,6 @@ cat ~/Desktop/Scripts/apache_logs.txt | awk '{print "In this time we got the mos
 ```bash
 cat ~/Desktop/Scripts/apache_logs.txt | sed /bot/p | awk '{$2=""}1' | awk '{$3=""}1' | awk '{$4=""}1' | awk '{$5=""}1'
 ```
-<br/><br/>
-
 ###C. Create a data backup script that takes the following data as parameters:
 1. Path to the syncing directory.
 2. The path to the directory where the copies of the files will be stored.
@@ -122,3 +120,4 @@ fi
 
 # Запис в кронтаб " * * * * * /home/vm1/Desktop/task.sh -cro >> /home/vm1/Desktop/backup.log 2>&1"
 ```
+<br/>
