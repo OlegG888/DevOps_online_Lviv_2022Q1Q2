@@ -10,7 +10,7 @@
  KVM<br/>
 
    
-#### 3. Briefly describe the main differences of the most popular hypervisors. <br/>
+#### 2. Briefly describe the main differences of the most popular hypervisors. <br/>
  Гіпервізори поділяються на 4 типи:<br/>
  Гіпервізор першого типу називають ще мікроядром, тонким гіпервізором, <br/> 
  який виконується на «голому залізі». Гіпервізор  першого типу найпростіше <br/> 
