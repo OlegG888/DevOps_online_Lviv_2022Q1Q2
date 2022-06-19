@@ -53,15 +53,15 @@
 ![Завдання 1.7](Group3VMs1.7.png) <br/><br/>
    1.8 For VM1, changing its state, take several different snapshots, forming a branched
 tree of snapshots [1, ch.1.11].<br/>
-   1.9 Export VM1. Save the *.ova file to disk. Import VM from *.ova file [1, ch.1.15].
-![Завдання 1.9](Snapshots Imp-Exp1.8-1.9.png) <br/><br/>
+   1.9 Export VM1. Save the *.ova file to disk. Import VM from *.ova file [1, ch.1.15]. <br/>
+ ![Завдання 1.9](Snapshots Imp-Exp1.8-1.9.png) <br/><br/>
 
 2. Configuration of virtual machines<br/>
    2.1 Explore VM configuration options (general settings, system settings, display,
    storage, audio, network, etc.).<br/>
    2.2 Configure the USB to connect the USB ports of the host machine to the VM
    [1, ch.3.11].<br/>
-![Завдання 2.2](2.2.png) <br/><br/>
+ ![Завдання 2.2](2.2.png) <br/><br/>
    2.3 Configure a shared folder to exchange data between the virtual machine and
    the host [1, ch.4.3].<br/>
    ![Завдання 2.3](2.3.png) <br/><br/>
