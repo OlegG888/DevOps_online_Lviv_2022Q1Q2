@@ -72,13 +72,12 @@ tree of snapshots [1, ch.1.11].<br/>
 ```text
 Результати моїх тестів повністю збігаються з таблицею нижче:
 ```
-
   ![Завдання 2.4](2.4 TablePosibleconnections.png) <br/><br/>
 
-3. Work with CLI through VBoxManage.
-   3.1 Run the cmd.exe command line.
+3. Work with CLI through VBoxManage. <br/>
+   3.1 Run the cmd.exe command line. <br/>
    3.2 Examine the purpose and execute the basic commands of VBoxManage list,
-   showvminfo, createvm, startvm, modifyvm, clonevm, snapshot, controlvm [1, ch.8].
+   showvminfo, createvm, startvm, modifyvm, clonevm, snapshot, controlvm [1, ch.8]. <br/>
 
  ![Завдання 3.2](3.2Create-Start.png) <br/><br/>
  ![Завдання 3.2](3.2List-ShowVmInfo.png) <br/><br/>
@@ -88,19 +87,19 @@ tree of snapshots [1, ch.1.11].<br/>
    according to the host operating system (OS) installed on the student's workplace. For
    Windows, the file may be called, for example, vagrant_2.2.0_x86_64.msi. Install Vagrant.
    Check the path to Vagrant bin in the Path variable (My computer -> Properties ->
-   Advanced system settings -> Advanced -> Environment Variables).
+   Advanced system settings -> Advanced -> Environment Variables). <br/>
 2. Run the powershell. Create a folder "student name" (in English). In this example,
-   create a folder vagrant_test. Next, go to the folder.
-3. Initialize the environment with the default Vagrant box: init hashicorp/precise64.
-4. Run vagrant up and watch for messages during VM boot and startup.
+   create a folder vagrant_test. Next, go to the folder. <br/>
+3. Initialize the environment with the default Vagrant box: init hashicorp/precise64. <br/>
+4. Run vagrant up and watch for messages during VM boot and startup. <br/>
    ![Завдання 3.2](VagrantUp.png) <br/><br/>
 5. Connect to the VM using the program MobaXterm or PuTTY (can be
       downloaded from [6]), using SSH, IP address and port listed above (127.0.0.1:2222). By
-      default, login - vagrant and password are also vagrant.
-6. Record the date and time by executing the date command.
+      default, login - vagrant and password are also vagrant. <br/>
+6. Record the date and time by executing the date command. <br/>
  ![Завдання 3.2](Connect-Record3.6.png) <br/><br/>
-7. Stop and delete the created VM.
+7. Stop and delete the created VM. <br/>
  ![Завдання 3.2](Vagrant3.7.png) <br/><br/>
-8. Create your own Vagrant box [7]
+8. Create your own Vagrant box [7] <br/>
 9. (optional) Create a test environment from a few servers. Servers' parameters
-   are chosen independently by the student.
+   are chosen independently by the student.><br/>
