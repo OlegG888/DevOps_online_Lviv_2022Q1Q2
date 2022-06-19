@@ -1,6 +1,6 @@
 # Task 6 Linux administration with bash.<br/>
 
-###A. Create a script that uses the following keys:
+### A. Create a script that uses the following keys:
 1. When starting without parameters, it will display a list of possible keys and their description.
 2. The --all key displays the IP addresses and symbolic names of all hosts in the current subnet
 3. The --target key displays a list of open system TCP ports.
@@ -25,8 +25,13 @@ else echo "1. The --all key displays the ip addresses and symbolic names of all 
 fi
 
 ```
+<<<<<<< HEAD
 
 ###B. Using Apache log example create a script to answer the following questions:
+=======
+<br/><br/>
+### B. Using Apache log example create a script to answer the following questions:
+>>>>>>> c9c196c7757f51d51ea65ec80ccfd2d76aad667e
 1. From which ip were the most requests?<br/>
 ```bash
 cat ~/Desktop/Scripts/apache_logs.txt | awk '{print "requests from: " $1}' | sort | uniq -c | sort -nr | sed -n '1p' 
@@ -52,7 +57,13 @@ cat ~/Desktop/Scripts/apache_logs.txt | awk '{print "In this time we got the mos
 ```bash
 cat ~/Desktop/Scripts/apache_logs.txt | sed /bot/p | awk '{$2=""}1' | awk '{$3=""}1' | awk '{$4=""}1' | awk '{$5=""}1'
 ```
+<<<<<<< HEAD
 ###C. Create a data backup script that takes the following data as parameters:
+=======
+<br/><br/>
+
+### C. Create a data backup script that takes the following data as parameters:
+>>>>>>> c9c196c7757f51d51ea65ec80ccfd2d76aad667e
 1. Path to the syncing directory.
 2. The path to the directory where the copies of the files will be stored.
    In case of adding new or deleting old files, the script must add a corresponding entry to the log file
