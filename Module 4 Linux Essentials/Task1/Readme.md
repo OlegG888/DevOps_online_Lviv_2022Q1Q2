@@ -42,24 +42,24 @@ man це традиційна форма допомоги для кожної к
 ### Task1.Part2
 
 1. Examine  the tree command.  Master  the  technique  of  applying  a  template,  for example, display all files that contain a character c, or files that contain a specific sequence of characters. List subdirectories of the root directory up to and including the second nesting level.<br/>
-   ![8](task1P2 1.png) <br/><br/>
+   ![8](task1P2-1.png) <br/><br/>
 2. What command can be used to determine the type of file (for example, text or binary)? Give an example.<br/>
-   ![8](task1P2 2.png) <br/><br/>
+   ![8](task1P2-2.png) <br/><br/>
 3. Master the skills of navigating the file system using relative and absolute paths. How can you go back to your home directory fromanywhere in the filesystem?<br/>
-   ![8](task1P2 3.png) <br/><br/>
+   ![8](task1P2-3.png) <br/><br/>
 4. Become familiar with the various options for the ls command. Give examples of listing  directories  using  different  keys.  Explain  the  information  displayed  on  the terminal using the -l and -a switches.<br/>
  ```text
 Команда ls з ключом -а показує скорочений список файлів і папок, які відображаються в рядок. Натомість з ключом -l
 операційна система відображає папки і файли також приховані обєкти і права доступу до них, час створення і розмір. 
 ```  
 
-  ![8](task1P2 4.png) <br/><br/>
+  ![8](task1P2-4.png) <br/><br/>
  5. Perform the followingsequence of operations:-create a subdirectory in the home directory;-in this subdirectory create a file containing information 
 about directories located in the root directory (using I/O redirection operations);-view the created file;-copy the created file to your home directory 
 using relative and absolute addressing.-delete the previously created subdirectory with the file requesting removal;
 -delete the file copied to the home directory.<br/>
- ![8](task1P2 5а.png) <br/>
- ![8](task1P2 5b.png) <br/><br/>
+ ![8](task1P2-5а.png) <br/>
+ ![8](task1P2-5b.png) <br/><br/>
  6. Perform the following sequence of operations:-createa subdirectory test in the home directory;-copy  the .bash_history file  to  this  directory  
 while  changing  its  name  tolabwork2;-create a hard and soft link to the labwork2 file in the test subdirectory;
 -how to define soft and hard link, what do theseconcepts;-change the data by opening a symbolic link. What changes will
@@ -76,21 +76,21 @@ the labwork2. What changes have occurred and why?
 -Командою sudo mv hardlink.txt hard_lnk_labwork2.txt -ми перейменовуємо файл жорсткого посилання, таким самим чином перейменовуєм мяке посилання.
 ```
 
- ![8](task1P2 6.png) <br/><br/>
+ ![8](task1P2-6.png) <br/><br/>
  7. Using  the  locate  utility,  find  all  files  that  contain  the  squid  and  traceroutesequence.<br/>
- ![8](task1P2 7.png) <br/><br/>
+ ![8](task1P2-7.png) <br/><br/>
  8. Determine  which  partitions  are  mounted  in  the  system,  as  well  as  the  types  ofthese partitions.<br/>
- ![8](task1P2 8.png) <br/><br/>
+ ![8](task1P2-8.png) <br/><br/>
  9. Count the number of lines containing a given sequence of characters in a givenfile.<br/>
- ![8](task1P2 9.png) <br/><br/>
+ ![8](task1P2-9.png) <br/><br/>
  10. Using the find command, find all files in the /etc directory containing thehost character sequence.<br/>
- ![8](task1P2 10.png) <br/><br/>
+ ![8](task1P2-10.png) <br/><br/>
  11. List all objects in /etc that contain the ss character sequence. How can Iduplicate a similar command using a bunch of grep?<br/>
  ```text
 Перебуваючи в цільовій папці ми можемо знайти потрібні файли за допомогою команди grep -ri ss.
 ```
  12. Organize a screen-by-screen print of the contents of the /etc directory. Hint:You must use stream redirection operations.<br/>
-  ![8](task1P2 12.png) <br/><br/>
+  ![8](task1P2-12.png) <br/><br/>
  13. What are the types of devices and how to determine the type of device? Giveexamples.<br/>
  Девайси поділяються на 2 типи: Символьні і блочні. Приклад нижче.  
 ```text
