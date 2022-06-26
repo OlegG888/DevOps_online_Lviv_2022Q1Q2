@@ -1,0 +1,18 @@
+3fab3da HEAD@{0}: checkout: moving from main to main
+3fab3da HEAD@{1}: checkout: moving from develop to main
+3fab3da HEAD@{2}: merge styles: Fast-forward
+efb2e1d HEAD@{3}: checkout: moving from main to develop
+3fab3da HEAD@{4}: merge styles: Fast-forward
+a13e8f4 HEAD@{5}: checkout: moving from develop to main
+efb2e1d HEAD@{6}: checkout: moving from styles to develop
+3fab3da HEAD@{7}: commit: update
+51e7c63 HEAD@{8}: checkout: moving from develop to styles
+efb2e1d HEAD@{9}: checkout: moving from styles to develop
+51e7c63 HEAD@{10}: commit: created styles.css
+efb2e1d HEAD@{11}: checkout: moving from develop to styles
+efb2e1d HEAD@{12}: checkout: moving from images to develop
+efb2e1d HEAD@{13}: commit: update index
+467e410 HEAD@{14}: commit: Add devops.png and readme.txt
+a13e8f4 HEAD@{15}: checkout: moving from main to images
+a13e8f4 HEAD@{16}: commit: 2
+65e535a HEAD@{17}: commit (initial): 2
