@@ -65,11 +65,12 @@ a62327ff6b3b: Pushed
 latest: digest: sha256:2fb8aba8757e101b35a5bb263f3ea5d2bd117db0ceb32653ab5031dbc7c83e5d size: 1155
 ```
 14. Run a Serverless "Hello, World!" with AWS Lambda.
+    ![5](14.png)<br/><br/>
 15. Create a static website on Amazon S3, publicly available (link1 or link2 - using a custom domain
     registered with Route 53). Post on the page your own photo, the name of the educational
     program (EPAM DevOps online Winter 2022), the list of AWS services with which the student
     worked within the educational program or earlier and the full list with links of completed labs
     (based on tutorials or qwiklabs). Provide the link to the website in your report and СV.
 ```text
-In progress ...
+http://devops.progress.s3-website-us-east-1.amazonaws.com/
 ```
