@@ -71,6 +71,5 @@ latest: digest: sha256:2fb8aba8757e101b35a5bb263f3ea5d2bd117db0ceb32653ab5031dbc
     program (EPAM DevOps online Winter 2022), the list of AWS services with which the student
     worked within the educational program or earlier and the full list with links of completed labs
     (based on tutorials or qwiklabs). Provide the link to the website in your report and СV.
-```text
-http://devops.progress.s3-website-us-east-1.amazonaws.com/
-```
+
+[http://devops.progress](http://devops.progress.s3-website-us-east-1.amazonaws.com/)
