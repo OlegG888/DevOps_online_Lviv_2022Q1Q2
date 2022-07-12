@@ -7,5 +7,5 @@ My work in this file -> [3.4.pkt](https://github.com/OlegG888/DevOps_online_Lviv
       Client 2 DHCP<br/><br/>
    ![3](3.png)<br/>
    ![3](3a.png)<br/>
-Перевірити працездатність шляхом відправки ping з Client на доменне ім’я
+Перевірити працездатність шляхом відправки ping з Client на доменне ім’я.<br/><br/>
    ![3](8.png)<br/>
