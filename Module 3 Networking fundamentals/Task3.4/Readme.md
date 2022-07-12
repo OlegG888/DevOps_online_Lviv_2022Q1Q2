@@ -1,6 +1,6 @@
-# Task 3.3. <br/>
+# Task 3.4. <br/>
 
-My work in this file -> [3.4.pkt](https://github.com/OlegG888/DevOps_online_Lviv_2022Q1Q2/raw/main/Module%203%20Networking%20fundamentals/Task3.3/3.3.pkt) <br/>
+My work in this file -> [3.4.pkt](https://github.com/OlegG888/DevOps_online_Lviv_2022Q1Q2/raw/main/Module%203%20Networking%20fundamentals/Task3.4/3.4.pkt) <br/>
 <br/>
 ![3](1.png) <br/><br/>
 Перевірити працездатність сервісу, поставивши в налаштуваннях Client 1 та
