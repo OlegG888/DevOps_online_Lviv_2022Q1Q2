@@ -15,7 +15,7 @@ pipeline {
             steps {
                 echo  ============== start building image ==================
                 dir ('docker/tool') {
-                	sh 'docker build -t semaevtoolboxlatest . '
+                	sh 'docker build . '
                 }
             }
         }
