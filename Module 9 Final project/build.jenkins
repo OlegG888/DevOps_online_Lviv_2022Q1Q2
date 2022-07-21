@@ -11,17 +11,14 @@ pipeline {
         timestamps()
     }
     stages {
-        stage("First step") {
+        stage("Creat docker image") {
             steps {
-                echo  " ============== Logining =================="
-               sh 'ssh -i "~/MyKey.pem" ubuntu@44.201.239.237 \'hostname\''
+                echo  " ============== Start building image =================="
+               dir ('docker/tool'){
+               sh 'ssh -i "~/MyKey.pem" ubuntu@44.201.239.237 \'docker build .\''
+               }
             }
         }
-        stage("Second step") {
-            steps {
-                echo  " ============== Second step =================="
-               sh 'ssh -i "~/MyKey.pem" ubuntu@44.201.239.237 \'uptime\''
-            }
-        }
+        
      }
 }
