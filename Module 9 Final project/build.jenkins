@@ -15,7 +15,7 @@ pipeline {
             steps {
                 echo  " ============== Start building image =================="
                dir ('docker/tool'){
-               sh 'ssh -i "~/MyKey.pem" ubuntu@44.201.239.237 \'cd ~ && docker build .\''
+               sh 'ssh -i "~/MyKey.pem" ubuntu@44.201.239.237 \'pwd\''
                }
             }
         }
