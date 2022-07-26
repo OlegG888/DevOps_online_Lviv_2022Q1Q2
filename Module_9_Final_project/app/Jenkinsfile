@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        repository = 'git@github.com:additional-repos/containers-project.git'
+        repository = 'git@github.com:OlegG888/DevOps_online_Lviv_2022Q1Q2.git'
         registry = '343911933861.dkr.ecr.us-east-1.amazonaws.com/app'
         container = 'app'
     }
