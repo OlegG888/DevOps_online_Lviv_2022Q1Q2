@@ -1,3 +1,0 @@
-SHA256(ubuntu-jammy-22.04-cloudimg.vmdk)= e5ef276684ee1eede872c3e7e6b84706acdcee6265550312074b666d0ade98df
-SHA256(ubuntu-jammy-22.04-cloudimg-configdrive.vmdk)= 9ce6cdb3e4ff95872cbdfba337c172a72377dee8215491c338aa507946cecf2b
-SHA256(box.ovf)= 46d241bcea40bbb1aec3ac9f40ed615ee1491344c8d460dc5005c20b69a79f2c
