@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Build Docker image') {
             steps {
-                dir('Module_9_Final_project/app/') {
+                dir('app/') {
                     script {
                         dockerImage = docker.build registry
                     }
