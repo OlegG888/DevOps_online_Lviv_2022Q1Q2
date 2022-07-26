@@ -21,12 +21,6 @@ echo \
 apt-get update
 apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
-groupadd docker
-usermod -aG docker jenkins
-newgrp docker
-
-apt-get update
-
 apt install -y openjdk-11-jre
 java -version
 
@@ -40,6 +34,10 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 apt-get update
 
 apt-get install -y jenkins
+
+groupadd docker
+usermod -aG docker jenkins
+newgrp docker
 
 apt-get install -y unzip
 
@@ -55,6 +53,7 @@ systemctl start docker
 systemctl enable jenkins
 systemctl start jenkins
 systemctl status jenkins
+service jenkins restart
 
 jenkins --version
 docker --version
